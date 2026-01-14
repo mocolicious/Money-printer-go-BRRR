@@ -3,8 +3,8 @@ import styled, { css, keyframes } from 'styled-components';
 import {
   faFont,
   faMusic,
-  faMusicSlash,
-} from '@fortawesome/pro-solid-svg-icons';
+  faVolumeXmark,
+} from '@fortawesome/free-solid-svg-icons';
 import Title from '../Title';
 import Slider from './Slider';
 import Button from './Button';
@@ -129,7 +129,7 @@ const Controls = ({
             onClick={toggleSymbolModal}
           />
           <Button
-            icon={muted ? faMusicSlash : faMusic}
+            icon={muted ? faVolumeXmark : faMusic}
             aria-label={muted ? 'Unmute' : 'Mute'}
             onClick={handleToggleMute}
           />
