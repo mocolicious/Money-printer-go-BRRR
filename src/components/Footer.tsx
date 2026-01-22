@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle, faShareAlt } from '@fortawesome/pro-solid-svg-icons';
+import { faPlusCircle, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import {
   faBitcoin,
   faTwitter,
@@ -209,7 +209,7 @@ const footerItems = [
     children: 'Share',
     className: 'share-twitter',
     href: twitterIntent,
-    icon: faShareAlt,
+    icon: faShareNodes,
     color: twitterColor,
     isTwitterIntent: true,
   },
